@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    color: white;
+}
+#wrapper {
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(52, 58, 63);
+    padding-top: 10px;
+}
+img {
+    max-width: 80%;
+    display: block;
+    margin: auto;
+    border-style: ridge;
+}
+h1{
+    text-align: center;
+    border-style: ridge;
+}
+h2{
+    text-align: center;
+    border-style: ridge;
+}
+p{
+    text-align: center;
+
+}
+nav ul{
+    list-style-type: none;
+    text-align: right;
+}
+nav li{
+    display: inline;
+    
+    
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+nav a:hover {
+    color: black;
+}
+ol {
+    list-style-type: none;
+    text-align: center;
+}
+footer {
+    text-align: right;
+}
