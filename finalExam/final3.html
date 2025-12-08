@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--Sebastian Flores 12/7/25-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forms</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="wrapper">
+        <h1>Forms</h1>
+        <nav>
+                <ul>
+                    <li><a href="final1.html">Home</a></li>
+                    <li><a href="final2.html">Mechanics</a></li>
+                    <li><a href="final3.html">Form</a></li>
+                    <li><a href="final4.html">Credits</a></li>
+                </ul>
+            </nav>
+        <p>
+            A little survey to get some feedback and ask some questions.
+        </p>
+        <form name="FNAF" method="post" id="FNAF" action="demo.php">
+            <h2>Who is your Favorite animatronic</h2>
+            <input type="radio" name="Freddy" id="Freddy-1" value="1">Freddy<br>
+            <input type="radio" name="Bonnie" id="Bonnie-1" value="2">Bonnie<br>
+            <input type="radio" name="Chica" id="Chica-1" value="3">Chica<br>
+            <input type="radio" name="Foxy" id="Foxy-1" value="4">Foxy<br><br>
+
+            <h2>Which animatronics do you think you can beat in a fight</h2>
+            <input type="checkbox" name="Freddy" id="Freddy-2" value="yes">Freddy<br>
+            <input type="checkbox" name="Bonnie" id="Bonnie-2" value="yes">Bonnie<br>
+            <input type="checkbox" name="Chica" id="Chica-2" value="yes">Chica<br>
+            <input type="checkbox" name="Foxy" id="Foxy-2" value="yes">Foxy<br>
+
+            <h2>Which game would you like a break down of</h2>
+            <label for="message">Name of Game:</label><br>
+            <textarea id="Game" name="Game" rows="4" placeholder="Write your wanted game here...."></textarea>
+
+            <h2>Date of Survey</h2>
+            <label for="myDate">Choose a date:</label>
+            <input type="date" name="myDate" id="myDate">
+
+            <h2>Name</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <br><br>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        </div>
+    </body>
+</html>
