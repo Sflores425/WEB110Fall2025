@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<!--Sebastian Flores 12/7/25-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mechanics</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="wrapper">
+        <header>
+            <h1>The Mechanics of FNAF</h1>
+            <nav>
+                <ul>
+                    <li><a href="final1.html">Home</a></li>
+                    <li><a href="final2.html">Mechanics</a></li>
+                    <li><a href="final3.html">Form</a></li>
+                    <li><a href="final4.html">Credits</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <ul>
+                    <li><a href="#AI_Levels">Ai Levels</a></li>
+                    <li><a href="#MO">Movement Opportunity</a></li>
+                    <li><a href="#Power">Power</a></li>
+                    <li><a href="#Animatronics">Animatronics</a></li>
+                    <li><a href="#Zero_Power">Zero Power</a></li>
+                    <li><a href="#Extra">Extras</a></li>
+
+                </ul>
+                <h2 id="AI_Levels">Ai Levels</h2>
+                <p>
+                    The Ai levels are the main way that the animatronics move and attack.
+                    while not being seen until the custom night, the Ai level system is 
+                    used throughout the game.
+                </p>
+                <img src="FNAF1CN.jpg" alt="Image of FNAF Custom Night">
+                <p>
+                    Here is a table showing the Ai level for every night.
+                </p>
+                <table>
+                    <tr>
+                        <th>Night</th>
+                        <th class="Freddy">Freddy</th>
+                        <th class="Bonnie">Bonnie</th>
+                        <th class="Chica">Chica</th>
+                        <th class="Foxy">Foxy</th>
+                    </tr>
+                    <tr>
+                        <td>Night 1</td>
+                        <td>0</td>
+                        <td class="Bonnie">0</td>
+                        <td class="Chica">0</td>
+                        <td class="Foxy">0</td>
+                    </tr>
+                    <tr>
+                        <td>Night 2</td>
+                        <td>0</td>
+                        <td class="Bonnie">3</td>
+                        <td class="Chica">1</td>
+                        <td class="Foxy">1</td>
+                    </tr>
+                    <tr>
+                        <td>Night 3</td>
+                        <td>1</td>
+                        <td class="Bonnie">0</td>
+                        <td class="Chica">5</td>
+                        <td class="Foxy">2</td>
+                    </tr>
+                    <tr>
+                        <td>Night 4</td>
+                        <td>1/2</td>
+                        <td class="Bonnie">2</td>
+                        <td class="Chica">4</td>
+                        <td class="Foxy">6</td>
+                    </tr>
+                    <tr>
+                        <td>Night 5</td>
+                        <td>3</td>
+                        <td class="Bonnie">5</td>
+                        <td class="Chica">7</td>
+                        <td class="Foxy">5</td>
+                    </tr>
+                    <tr>
+                        <td>Night 6</td>
+                        <td>4</td>
+                        <td class="Bonnie">10</td>
+                        <td class="Chica">12</td>
+                        <td class="Foxy">16</td>
+                    </tr>
+                </table>
+                <h3>Level Raises</h3>
+                <p>
+                    Even though they start at Ai level zero. Some of the animatronics levels will slowly raise 
+                    over the course of a night. <br> Bonnie's level will raise by 1 at 2am. <br> Everyones level
+                    except freddy will increase by 1 level at 3am. <br> And the same thing happems at 4am. <br>
+                    As seen freddy does not get any level increase, meaning if he is at 0 then he is deactivated 
+                    for the night.
+                </p>
+                <h2 id="MO">Movement Opportunity</h2>
+                <p>
+                    With the Ai levels explained, its time to explain how the animatronics move and attack.<br>
+                    The game will generate a number from 1 to 20. If the Ai level of an animatronic is equal to
+                    or greater than the generated number then the animatronic will succeed and move. Thus completing 
+                    the movement opportunity or MO for future reference.<br> The MO of every animatronic is timed slightly off
+                    <br><br>Heres a table showing how long each animatronic takes for a MO.
+                </p>
+                <table>
+                    <tr>
+                        <th>animatronic</th>
+                        <th>Time (seconds)</th>
+                    </tr>
+                    <tr>
+                        <td>Freddy</td>
+                        <td>3.02</td>
+                    </tr>
+                    <tr>
+                        <td class="Bonnie">Bonnie</td>
+                        <td class="Bonnie">4.97</td>
+                    </tr>
+                    <tr>
+                        <td class="Chica">Chica</td>
+                        <td class="Chica">4.98</td>
+                    </tr>
+                    <tr>
+                        <td class="Foxy">Foxy</td>
+                        <td class="Foxy">5.01</td>
+                    </tr>
+                </table>
+                <h2 id="Power">Power</h2>
+                <p>
+                    Every night the player will start with 100% power and over the course of the night 
+                    the power will drain. Depending on what the player does more or less power may be consumed.
+                    <br> Even if the player does nothing there will always be slight constant power loss. With every night after having a 
+                    faster drain of power.
+                </p>
+                <img src="Power.png" alt="Image of the power in game">
+                <table>
+                    <tr>
+                        <th>Night</th>
+                        <th>Seconds to lose 1%</th>
+                    </tr>
+                    <tr>
+                        <td>Night 2</td>
+                        <td>6 Seconds</td>
+                    </tr>
+                    <tr>
+                        <td>Night 3</td>
+                        <td>5 Seconds</td>
+                    </tr>
+                    <tr>
+                        <td>Night 4</td>
+                        <td>4 Seconds</td>
+                    </tr>
+                    <tr>
+                        <td>Night 5</td>
+                        <td>3 Seconds</td>
+                    </tr>
+                </table>
+                <h2 id="Animatronics">Animatronics</h2>
+                <p>
+                    With most of the main game mechanics explained, its time to talk 
+                    about the animatronics and the specifics with each one.
+                </p>
+                <h3>Bonnie & Chica</h3>
+                <p>
+                    Bonnie and chica pretty much act the same, with Bonnie taking the left side of the 
+                    restaurant and Chica taking the right side.<br> They will both start on the stage 
+                    and will take their own route to the office. Once they make it to the office door they 
+                    will attempt to make it in the office. If the doors are closed then they will reset back to 
+                    the dining room.<br>If the door isn't closed and they succeed on their MO then they will enter 
+                    the office. The player will not be able to close the doors and will be jumpscared after picking up the camera and puting
+                    it back down. If the player has the camera up still after either Bonnie or Chica entered then after 30 seconds the animatronic 
+                    will forcfully pull down the camera and jumpscare the player.
+                </p>
+                <img src="Bonnie_Dinning.png" alt="Bonnie in the dinning room">
+                <img src="Chica.png" alt="Chica looking at cameras">
+                <h3>Foxy</h3>
+                <p>
+                    Foxy, for the most part, will stay in pirates cove. For every successful MO he will move into his next phase. Each phase showing him
+                    leaning out of pirates cove. Once Foxy reaches his fourth phase he will start running toward the office.<br>The way to slow foxy down is to 
+                    use the cameras. When the player has his camera up, no matter what, foxy will always lose his MO. After the camera is put down, foxy will be 
+                    stuck in this frozen state from anywhere between 0.83 seconds to 16.67 seconds.
+                </p>
+                <img src="FoxyRun.gif" alt="Foxy running down hallway">
+                <h3>Freddy</h3>
+                <p>
+                    Freddy is the most interesting animatronic since unlike the other ones, once freddy makes it to his destination he will stay there. (Cam 4b)
+                    <br> Along with his normal MO freddy also has a second way to move. Freddy has a countdown and once the countdown reaches zero he will move up
+                    one space towards the players office, with the countdown starting at 15 seconds. Freddy also has the same freeze effect with the cameras up, just like foxy, the freeze will both cause him to 
+                    fail his MO and pause his countdown. After the player puts down the camera freddy will return normal and the countdown will start back up again. He will
+                    make it to his destination wether the player wants to or not.<br> The countdown is also different every night, with the increase of freddys Ai level shaving 
+                    off about 1.67 seconds.<br> Once freddy makes it to the spot (Cam 4b) his mechanics change a little. The countdown is stopped, since he doesnt need to move much anymore
+                    and he loses the ability to be frozen by the camera. The one gain the player gets is freddy can only attack when the player is using the cameras anywhere but his spot. He will also fail
+                    if the door is closed too. 
+                </p>
+                <img src="FreddyInCorner.jpg" alt="Freddy in the corner looking at camera">
+                <h2 id="Zero_Power">Zero Power</h2>
+                <p>
+                    Now what happens when the player doesnt manage their power well and has none left.<br> Immediatly the room lights shutoff and the doors all open if closed. For every 5 seconds there is a 
+                    20% chance that the player will enter the next phase, after 20 seconds the next phase will start.<br> Freddy's eyes will light up the right door and his infamous toreador march jingle will
+                    start to play. This phase has the same properties as the first one.<br> Once the phase ends the final phase begins, freddy's eyes will stop lighting up and the music will go silent. The final phase
+                    is similar to the other two with freddy having a 20% chance to jumpscare the player every 2 seconds. 
+                </p>
+                <img src="PowerOut.gif" alt="gif of the power running out">
+                <h2 id="Extra">Extra</h2>
+                <p>
+                    As a little bonus heres how the secret 5th animatronic spawns in the game. Everytime the player checks his designated spot there is a 0.00001% chance to 
+                    see his poster pop up. Once the player sees the poster and puts down the camera Golden Freddy will spawn in the office. If the camera is not flipped up in time then 
+                    Golden Freddy will jumpscare the player.
+                </p>
+                <img src="GoldenFreddy.jpg" alt="Golden Freddy poster in hallway">
+            </section>
+        </main>
+        </div>
+    </body>
+</html>
