@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+#wrapper {
+    text-align: center;
+    background-color: #B95E20;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+/* Making an inline-Block links for both types of links*/
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+
+}
+ul li {
+    float: left;
+}
+a, a:visited {
+    display: block;
+    background-color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+a:hover, a:active {
+    background-color: grey;
+}
+/* Sorting and adjusting the tables*/
+table, th, td {
+    width: 25%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+/*Fixing image size to fit in the website*/
+img {
+    max-width: 50%;
+}
+/*Border on all headers*/
+h1, h2, h3 {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    background-color: #D98032;
+}
+th {
+    background-color: white;
+}
+/*Used to color code the tables with the animatronics*/
+.Freddy {
+    background-color: #B95E20;
+}
+.Bonnie {
+    background-color: purple;
+}
+.Chica {
+    background-color: yellow;
+}
+.Foxy {
+    background-color: red;
+}
